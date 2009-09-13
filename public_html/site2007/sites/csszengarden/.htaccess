@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^zengarden.ulbu.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.zengarden.ulbu.com$
+RewriteRule ^(.*)$ http://ulbu.com/zengarden [R=301,L]
+

@@ -1,0 +1,203 @@
+#Portfolio span a {
+	font-size:0.35em;
+	text-decoration:none;
+	color:#3a3c2e;
+	
+	border-bottom:solid 1px #e9eae4;
+	margin:0 0 0 2px;
+	
+	padding:0 0 0 16px;
+	background:url(/img/site/SmallDot.gif) no-repeat 3px center;
+}
+
+#Portfolio span a:hover {
+	color:#5e614b;
+}
+
+#Portfolio #PortfolioItems{
+display:block;
+float:left;
+width:200px;
+
+margin:0 0 20px 20px;
+padding:0 0 0 20px;
+
+border-left:1px solid #fff;
+}
+
+#Portfolio #PortfolioItems li {
+display:block;
+border:none;
+
+
+/*Counteract IE6 not restoring the border after the hover action*/
+zoom:1;
+
+/*Force IE6 to react to the link with the cursor, even over text*/
+cursor:hand;
+}
+
+#Portfolio #PortfolioItems li a {
+border:none;
+
+/*IE displays the text select cursor when the mouse moves over the client label - this resets that*/
+cursor:hand;
+}
+
+#Portfolio #PortfolioItems a:hover {
+color:#5e614b;
+}
+
+#Portfolio #PortfolioItems a:hover img{
+border:1px solid #5e614b;
+
+}
+
+
+#Portfolio #PortfolioItems img{
+width:40px;
+height:40px;
+border:1px solid #3a3c2e;
+
+float:left;
+display:block;
+margin:0 0 3px 2px;
+}
+
+#Portfolio h3 {
+margin:0 0 0 371px;
+font-size:1.7em;
+font-weight:normal;
+}
+
+#Portfolio #PortfolioItems a {
+display:block;
+line-height:1.2em;
+margin:12px 0 0px;
+
+height:70px;
+}
+
+#Portfolio #PortfolioItems a b {
+border-bottom:1px solid #e9eae4;
+padding:0 0 2px;
+margin:0 0 8px;
+display:block;
+}
+
+#Portfolio #PortfolioItems i, #Portfolio #PortfolioItems p.Skills {
+display:block;
+padding:0 6px;
+line-height:1.2em;
+}
+
+#Portfolio #PortfolioItems p.Skills small a {
+display:inline;
+margin:0;
+padding:0;
+
+}
+
+#Portfolio #PortfolioItems i {
+float:right;
+
+font-style:normal;
+width:130px;
+text-align:right;
+}
+
+#Portfolio #PortfolioItems p.Skills {
+clear:both;
+text-align:right;
+
+font-size:0.7em;
+padding:0 0 6px;
+
+
+}
+
+
+/*=================================================================== Portfolio Item ==*/
+
+#Portfolio #PortfolioItem {
+margin:0 0 0 6px;
+}
+
+#Portfolio #PortfolioItem img {
+width:40px;
+height:40px;
+display:block;
+border:1px solid #3a3c2e;
+}
+
+#Portfolio #PortfolioItem h3{
+font-weight:normal;
+font-size:1.5em;
+margin:6px 0 0 10px;
+}
+
+#Portfolio #PortfolioItem .Column, #Portfolio #PortfolioItem img, #Portfolio #PortfolioItem h3 {
+float:left;
+padding:0;
+}
+
+#Portfolio #PortfolioItem .Column {
+margin:0px 0;
+width:260px;
+padding:0 26px 0 3px;
+}
+
+#Portfolio #PortfolioItem h4 {
+margin:12px 0 4px 0;
+line-height:1em;
+}
+
+
+#Portfolio #PortfolioItem ul#ItemLink {
+
+list-style:square inside;
+
+padding:8px 0 14px 58px;
+margin:0;
+
+/*IE6 inherits from previous css attribute - largebox.css*/
+height:1%;
+
+display:block;
+clear:both;
+
+font-size:0.7em;
+background:url(../img/site/dottedLine.gif) repeat-x bottom left;
+
+line-height:1em;
+}
+
+#Portfolio #PortfolioItem ul#ItemLink li {
+margin:0 0 6px;
+}
+
+#Portfolio #PortfolioItem ul#ItemLink a {
+color:#5e614b;
+}
+
+#Portfolio #PortfolioItem div.Column p{
+padding:0px;
+margin:0 0 18px;
+text-align:justify;
+font-size:0.8em;
+line-height:2em;
+}
+
+
+#Portfolio #PortfolioItem div.Column ul {
+text-align:right;
+margin:0 0 8px;
+}
+
+
+/*=================================================================== Skills ==*/
+
+body {
+overflow:hidden;
+scroll:no;
+}

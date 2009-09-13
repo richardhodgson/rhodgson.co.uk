@@ -1,0 +1,134 @@
+		div.bbc-tearoff {			
+			font-family:verdana,helvetica,arial,sans-serif; 
+			font-size:62.5%;
+			
+			background:#dbdbdb url(http://www.bbc.co.uk/dnaimages/components/shared/img/bbc-blocks-small.png) no-repeat 98% 98%;
+			border:4px solid #fff;
+			padding:20px 16px 20px 20px;
+			
+			width:310px;
+			overflow:hidden;
+		}
+		
+		div.bbc-tearoff div.hpMod { font-size:1.2em; }
+		div.bbc-tearoff p.edit{display:none;}
+		/*.carousel li.one a { font-weight:bold; }*/
+		/*.bbc-tearoff .one  { background-color:#0C6A8A; }*/
+		
+		/* nabbed from homepage*/
+		
+		div.bbc-tearoff a, .buttons a:hover { text-decoration:none; }
+		div.bbc-tearoff a:hover { text-decoration:underline; }
+		div.bbc-tearoff .hide { position:absolute; left:-5000px; }
+		div.bbc-tearoff .blocked { display:none; }
+		div.bbc-tearoff img { border:0; }
+		
+		
+		
+		div.bbc-tearoff p { margin:0; }
+		div.bbc-tearoff ol, ul, li, form, fieldset { margin:0; padding:0;  font-size:1.2em; }
+		
+		div.bbc-tearoff h1 { font-size:1.75em }
+		div.bbc-tearoff h2 { font-size:1.5em; font-family:verdana,helvetica,arial,sans-serif; font-size:2em;}
+		div.bbc-tearoff h3 { font-size:1.25em }
+		div.bbc-tearoff h4 { font-size:1em }
+		
+		div.bbc-tearoff h3 { clear:both; margin:0; position:relative; }
+		
+		div.bbc-tearoff .hpMod {float:left; width:306px; color:#494949; position:relative; z-index:1; background:#ffffff url(http://bbc.co.uk/home/beta/9.0/img/gradient_bg.gif) repeat-x left -240px;}
+		div.bbc-tearoff .hpMod h2 { margin:0; padding:9px 30px; cursor:move; background:transparent url(http://bbc.co.uk/home/beta/9.0/img/corners_new.gif) no-repeat -918px top;}
+		div.bbc-tearoff .hpMod h2 a {font-weight:bold; }
+		div.bbc-tearoff .hpMod h2 a:hover { text-decoration:none; }
+		div.bbc-tearoff .hpSet { position:relative; background:#ffffff url(http://bbc.co.uk/home/beta/9.0/img/corners_new.gif) no-repeat left bottom; float:left; width:306px; }
+		
+		div.bbc-tearoff .hpCoWh .hpSet { background-position:-612px bottom; }
+		div.bbc-tearoff .hpData h3 { padding:6px 11px; background-color:#eeeeee; font-size:0.92em; text-transform:uppercase; border-top:1px solid #fff; font-weight:normal; }
+		div.bbc-tearoff .hpData h3 a { color:#494949; padding-left:15px; background:transparent url(http://bbc.co.uk/home/beta/9.0/img/bgsprite.gif) no-repeat -290px -357px; }
+		div.bbc-tearoff .hpData ul { padding:8px 10px 8px 25px; position:relative; }
+		div.bbc-tearoff .hpData ul li { line-height:1.5; }
+		
+		div.bbc-tearoff .hpData dl { margin:0; padding:5px 0 0 10px; }
+		div.bbc-tearoff .hpData dl dt { clear:left; font-weight:bold; }
+		div.bbc-tearoff .hpData dl dd { margin:3px 0 10px 0; }
+		div.bbc-tearoff .hpData dl dd.service { float:right; margin-right:10px; }
+		
+		div.bbc-tearoff .hpData { border-top:1px solid #ccc; clear:both; width:306px; }
+		div.bbc-tearoff .carousel, .main { border-top:none; }
+		
+		div.bbc-tearoff .hoverState { border:solid #c0c0c0; border-width:0 5px; position:relative;top:0px;left:-5px;margin:0 -10px 12px 0; }
+		div.bbc-tearoff .hoverCorners { background:transparent url(http://bbc.co.uk/home/beta/9.0/img/hover_corners.gif) no-repeat left top; width:316px; position:absolute; left:-5px; height:10px; z-index:99; }
+		div.bbc-tearoff div.top { background-position:-1264px top;top:-5px; }
+		div.bbc-tearoff div.bottom { background-position:left bottom; bottom:-5px; }
+		div.bbc-tearoff .hpCo div.bottom { background-position:-316px bottom; }
+		div.bbc-tearoff .hpCoWh div.bottom { background-position:-632px bottom; }
+		div.bbc-tearoff .hpCollapsed div.bottom { background-position:-948px bottom; }	
+		
+		div.bbc-tearoff .utils p.edit {position:absolute;top:0;right:0;text-align:center;}
+		div.bbc-tearoff .hpMod p.edit a {display:block;width:43px;height:22px;line-height:1.8; background:transparent url(http://bbc.co.uk/home/beta/9.0/img/bgsprite.gif) no-repeat -120px top;position:absolute;top:10px;right:10px; overflow:hidden; }
+		div.bbc-tearoff .hpMod p.edit a:hover {background-position: -120px -22px; text-decoration:none;}
+		
+		div.bbc-tearoff .hpCollapsed .utils { background:transparent url(http://bbc.co.uk/home/beta/9.0/img/corners_new.gif) no-repeat -1224px bottom; height:5px; }
+		div.bbc-tearoff .hpCollapsed h2 { padding-bottom:4px; }
+		
+		div.bbc-tearoff .addremove {position:relative;}
+		div.bbc-tearoff .addremove a {height:14px;width:14px;position:absolute;top:-1.7em;overflow:hidden;}
+		div.bbc-tearoff .addremove a.add {right:28px;background: url(http://bbc.co.uk/home/beta/9.0/img/bgsprite.gif) no-repeat left top;}
+		div.bbc-tearoff .addremove a.remove {right:10px;background: url(http://bbc.co.uk/home/beta/9.0/img/bgsprite.gif) no-repeat -18px top;}
+		div.bbc-tearoff .addremove a:hover {background-color:#ffffff;}
+		
+		div.bbc-tearoff .utils p.collapse { position:absolute; top:12px; left:7px; }
+		div.bbc-tearoff .utils p.collapse a { display:block; height:16px; width:18px; background:url(http://bbc.co.uk/home/beta/9.0/img/bgsprite.gif) no-repeat -175px 3px; overflow:hidden;}
+		div.bbc-tearoff .hpCollapsed p.collapse a { background-position:-189px 3px; }
+		
+		div.bbc-tearoff div.options { background:#4E4E4E url(http://bbc.co.uk/home/beta/9.0/img/gradient_bg.gif) repeat-x scroll left -898px; color:#fff; float:left; width:278px; padding:8px 14px 10px 14px; }
+		div.bbc-tearoff div.options ul { list-style:none; margin:0 0 7px 0; overflow:auto; border-bottom:2px groove #000; padding-bottom:7px; width:278px; }
+		div.bbc-tearoff div.options ul.section { float:left; padding:2px 0; margin-bottom:4px; overflow:visible; }
+		div.bbc-tearoff div.options ul.last { margin-bottom:7px; }
+		div.bbc-tearoff div.options ul li { float:left; width:139px; line-height:1.4; padding:2px 0; }
+		div.bbc-tearoff div.options ul input { float:left; margin:0; }
+		div.bbc-tearoff div.options ul label { display:block;margin-left:21px;}
+		div.bbc-tearoff div.options p { clear:both; text-align:right; }
+		div.bbc-tearoff div.options a { color:#fff; font-weight:bold;  }
+		div.bbc-tearoff div.options h3 { color:#ccc; font-weight:normal; font-size:1em; padding:5px 0; }
+		
+		
+		/* carousel */
+		div.bbc-tearoff .carousel ol { position:relative; min-height:110px; list-style:none; width:306px; }
+		div.bbc-tearoff .carousel li p { margin-left:146px; line-height:1; }
+		div.bbc-tearoff .carousel li p a {display:block; width:144px; color:#fff; line-height:1.1;  min-height:27px; padding:5px 6px 4px 10px; }
+		div.bbc-tearoff .carousel li.two { border-style:solid; border-width:1px 0; }
+		div.bbc-tearoff .carousel li.dy a { font-weight:bold; }
+		div.bbc-tearoff .carousel li p a:hover { font-weight:bold; text-decoration:none; }
+		div.bbc-tearoff .carousel li img { position:absolute; top:0; left:-5000px; float:left; visibility:hidden; width:146px; height:110px; }
+		div.bbc-tearoff .carousel li a:hover img, div.bbc-tearoff .carousel li.one img, div.bbc-tearoff .carousel li.dy img { visibility:visible; left:0; }
+		
+		div.bbc-tearoff .carousel h3, div.bbc-tearoff .logos h3 { position:absolute; left:-2000em; height:6px; }
+		div.bbc-tearoff .hpCo .carousel h3, .hpCo .logos h3 { background:transparent url(http://bbc.co.uk/home/beta/9.0/img/corners_new.gif) no-repeat -306px bottom; position:absolute; bottom:0; left:0; margin:0; padding:0; border:0; width:306px; text-indent:-1000em; z-index:100;}
+		
+		
+		div.bbc-tearoff span.desc {border:solid 5px #c0c0c0; height:90px; width:174px; padding:10px; color:#000; font-weight:normal; border-left:0; position:absolute; left:-5000px; }
+		
+		/* palette */
+		
+				
+				/* palette 1 - teal */
+		
+		/* dark */
+		.bbc-tearoff .dx, .bbc-tearoff a, .bbc-tearoff .hpData ul, .bbc-tearoff #searchbutton { color:#0C6A8A; }
+		.bbc-tearoff .dy, li.bbc-tearoff .dy  { background-color:#0C6A8A; }
+		
+		/* light */
+		.bbc-tearoff .lx, .bbc-tearoff .lx a, .bbc-tearoff h2 a:hover { color:#6a99ad; }
+		.bbc-tearoff .ly, .bbc-tearoff .main, .bbc-tearoff .tv { background-color:#6a99ad; }
+		li.bbc-tearoff, li.bbc-tearoff div a { color:#93d4f0; }
+		
+		/* backgrounds */
+		.bbc-tearoff #blq-banner, .bbc-tearoff .carousel li a:hover, .bbc-tearoff .carousel li.dy a, .hpFeatureList li.bbc-tearoff, .bbc-tearoff .gy { background:#0C6A8A url(http://bbc.co.uk/home/beta/9.0/img/gradients/bg_teal.gif) repeat-x left -74px; }
+		
+		/* borders */
+		.bbc-tearoff .hpQuoteOpen span, .bbc-tearoff .hpWeather td, .bbc-tearoff .hpWeather th { border-right-color:#6a99ad; }
+		.bbc-tearoff .hpQuoteClose span { border-left-color:#6a99ad; }
+		.bbc-tearoff .carousel li.two { border-color:#97b8c6; }
+
+a:link, a:visited {background:none;}
+		

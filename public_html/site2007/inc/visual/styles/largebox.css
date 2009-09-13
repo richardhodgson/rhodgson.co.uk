@@ -1,0 +1,66 @@
+.LargeBox {
+	
+	display:block;
+	position:absolute;
+	
+	left:340px;
+	top:170px;	
+	width:634px;
+	
+	background:url(../img/site/largeboxbottom.jpg) no-repeat left bottom rgb(198, 200, 184);
+	
+	
+	color:#5e614b;
+	font: 0.9em "Lucida Sans", Lucida, Arial, sans-serif;
+	line-height:1.9em;
+	
+	
+	/*
+	portfolio box top needs cropping down left edge correctly
+	needs to finish at gradient.
+	
+	wide lower curve needs making.
+	*/
+}
+
+.LargeBox div {
+	min-height:270px;
+	
+	/*A disgusting IE6 hack to induce the effect of min-height */
+	_height:270px;
+	
+	
+	padding:32px 14px 20px 20px;
+	background:url(../img/site/largeboxtop.jpg) no-repeat left top transparent;
+	
+	margin:0 0 20px;
+}
+
+.LargeBox div li a p {
+	background:none;
+}
+
+.LargeBox div a  {
+	text-decoration:none;
+	color:#3a3c2e;
+	padding:0 0;
+	border-bottom:solid 1px #e9eae4;
+}
+
+.LargeBox div a.document {
+
+	padding:0 0 0 16px;
+	background:url(../img/site/file.png) no-repeat 2px center;
+}
+
+.LargeBox div span { 
+	display:block;
+	margin:0 0 32px;
+	font-size:2.4em;
+}
+
+.LargeBox div div {
+background:none;
+padding:0;
+min-height:0;
+}

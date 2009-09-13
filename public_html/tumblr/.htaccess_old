@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^tumblr.rhodgson.co.uk$
+RewriteRule ^/?(.*)$ "http\:\/\/richardhodgson\.tumblr\.com\/$1" [R=302,L]
+

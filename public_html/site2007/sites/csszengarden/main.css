@@ -1,0 +1,374 @@
+/* Title: */
+/* Author: Richard Hodgson */
+/* Note: This design is inspired by and based on images available from ready.gov.  */
+/* Has been tested in IE */
+
+#extraDiv1{
+position: absolute;
+top:10px;
+left:218px;
+width:572px;
+height:144px;
+background: url(mainheader.jpg);
+}
+
+body { 	
+background: url(bgrepeat.jpg);
+font-family: trebuchet ms, tahoma, arial;
+font-size: 12px;
+color: #400040;
+margin: 0px;
+}
+			
+#intro a{
+color:#800080;
+text-decoration: none;
+border-bottom: 1px #FF0000 solid;
+font-weight: bold;
+}
+
+#supportingText a {
+color:#800080;
+text-decoration: none;
+border-bottom: 1px #FF0000 solid;
+font-weight: bold;
+}
+
+#container {
+position: relative;
+left: 195px;
+top: 160px;
+width: 594px;
+padding: 0px 0px 0px 0px;
+background: url(pagebg.jpg);
+background-repeat: repeat-y;
+background-position: 22px ;
+}
+
+#supportingText p:first-letter {
+font-size: 100%;
+color: #FF0000;
+font-weight: bold;
+}
+
+#preamble p:first-letter {
+font-size: 100%;
+color: #FF0000;
+font-weight: bold;
+}
+
+#intro {
+width:594px;
+background: url(pagetop.jpg);
+background-repeat: no-repeat;
+}
+			
+#pageHeader {
+display:none;
+}
+
+#pageHeader h1 span {
+	display:none
+}
+
+#pageHeader h2 span {
+	display:none
+}
+
+#quickSummary { 
+width: 594px;
+}
+
+#quickSummary p.p1  { 
+font-size: 16px;
+font-weight: bold;
+padding-left: 122px;
+padding-right: 17px;
+padding-top:40px;
+text-align: right;
+}
+ 
+#quickSummary p.p2  {
+padding-top:20px; 
+padding-left: 130px;
+}
+ 
+#preamble { 
+margin-left:137px;
+margin-top:100px;
+width: 445px;
+background: url(rtebottom.jpg);
+background-repeat: no-repeat;
+background-position: left bottom ;
+text-align: justify;
+padding-bottom: 20px;
+ }
+
+#preamble p {
+margin-top:0px;
+margin-bottom:0px;
+padding-top:20px;
+padding-left: 8px;
+padding-right: 8px;
+background: url(rtebg.jpg);
+font-size:14px;
+}
+
+#preamble h3 {
+margin-top:0px;
+margin-bottom:0px;
+width: 445px;
+height: 70px;
+background: url(rtetop.jpg);
+}
+
+#preamble h3 span {
+display:none;
+}
+ 
+#supportingText { 
+background: url(endpage.jpg);
+background-repeat: no-repeat;
+background-position: left bottom ;
+margin-left:22px;
+width: 572px;
+padding-right: 22px;
+ }
+
+#supportingText p {
+width: 420px;
+text-align: justify;
+}
+
+#supportingText h3 {
+width: 440px;
+height: 43px;
+margin-left: -45px;
+margin-top: 60px;
+margin-bottom: 0px;
+}
+ 
+#explanation {
+margin-left: 128px;
+}
+
+#explanation h3 {
+background-image: url(aboutheader.jpg);
+}
+
+#explanation h3 span {
+display: none;
+}
+
+#participation {
+margin-left: 128px;
+}
+
+#participation h3 {
+background-image: url(participationheader.jpg);
+}
+
+#participation h3 span {
+display: none;
+}
+#benefits {
+margin-left: 128px;
+}
+
+#benefits h3 {
+background-image: url(benefitsheader.jpg);
+}
+
+#benefits h3 span {
+display: none;
+}
+
+#requirements {
+margin-left: 128px;
+}
+
+#requirements h3 {
+background-image: url(requirementsheader.jpg);
+}
+
+#requirements h3 span {
+display: none;
+}
+
+#requirements p.p5 { 
+text-align: right;
+padding-top: 20px;
+padding-right:8px;
+padding-bottom: 8px;
+}
+
+#footer { 
+margin-left: 128px;
+text-align: right;
+padding-right:25px;
+padding-bottom: 8px;
+}
+ 
+#linkList { 
+margin-left: 0px;
+font-size: 10px;
+position: absolute;
+left: -150px;
+top: 27px;
+}
+
+#linkList a:link{
+color:#800080;
+text-decoration: none;
+font-weight: bold;
+}
+ 
+#lselect h3 {
+/*display:none;*/
+font-size:1px;
+background: url(menubgtop.jpg);
+height:326px;
+}
+
+#lselect li {
+padding-bottom: 4px;
+margin-left: 0px;
+list-style-type: none;
+}
+
+#lselect a { 
+text-transform: uppercase;
+}
+
+#lselect {
+position: relative;
+width: 154px;
+}
+
+#lselect ul {
+padding-left: 10px;
+margin-left: 0px; 
+text-align: left;
+margin-top: -258px;
+background: url(menubgbottom.jpg); 
+background-repeat: no-repeat;
+background-position: left bottom;
+}
+
+#lfavorites {
+margin-top: 15px;
+margin-left: -1px;
+width:157px;
+padding-bottom:12px;
+background: url(archivesbottom.jpg);
+background-repeat: no-repeat;
+background-position: left bottom ;
+}
+
+#lfavorites h3{
+background: url(favoritesheader.jpg); 
+height:23px;
+width:157px;
+margin-bottom:0px;
+}
+
+#lfavorites h3 span{
+display:none;
+}
+
+#lfavorites li{
+padding-left: 15px;
+list-style-image: url(bullet.jpg);
+list-style-type: circle;
+text-align: left;
+letter-spacing: normal;
+max-width:153px;
+padding-top: 10px;
+ }
+ 
+#lfavorites ul {
+margin-top:0px;
+margin-bottom:0px;
+margin-left: 0px;
+background: url(archivesbg.jpg);
+}
+
+
+
+#larchives {
+margin-top: 15px;
+margin-left: -1px;
+width:157px;
+padding-bottom:12px;
+background: url(archivesbottom.jpg);
+background-repeat: no-repeat;
+background-position: left bottom ;
+}
+
+#larchives h3{
+background: url(archivesheader.jpg); 
+height:22px;
+width:157px;
+margin-bottom:0px;
+}
+
+#larchives h3 span{
+display:none;
+}
+
+
+#larchives li{
+padding-left: 15px;
+list-style-image: url(bullet.jpg);
+list-style-type: circle;
+text-align: left;
+letter-spacing: normal;
+max-width:153px;
+ }
+ 
+#larchives ul {
+margin-top:0px;
+margin-bottom:0px;
+margin-left: 0px;
+background: url(archivesbg.jpg);
+}
+
+#lselect a.c {color: #808080;}
+
+#lresources {
+margin-top: 15px;
+margin-left: -1px;
+width:157px;
+padding-bottom:12px;
+background: url(archivesbottom.jpg);
+background-repeat: no-repeat;
+background-position: left bottom ;
+}
+
+#lresources h3{
+background: url(resourcesheader.jpg); 
+height:22px;
+width:157px;
+margin-bottom:0px;
+}
+
+#lresources h3 span{
+display:none;
+}
+
+#lresources li{
+padding-left: 15px;
+list-style-image: url(bullet.jpg);
+list-style-type: circle;
+text-align: left;
+letter-spacing: normal;
+max-width:153px;
+padding-top: 10px;
+ }
+ 
+#lresources ul {
+margin-top:0px;
+margin-bottom:0px;
+margin-left: 0px;
+background: url(archivesbg.jpg);
+}

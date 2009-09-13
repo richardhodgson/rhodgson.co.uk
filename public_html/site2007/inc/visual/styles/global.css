@@ -1,0 +1,172 @@
+.ClearBoth {
+clear:both;
+}
+
+body {
+background: url(../img/site/detailTile.jpg) repeat-y 39px;
+}
+
+div#page {
+	padding:22px 0;
+	min-height:845px;
+	
+	/*A disgusting IE6 hack to induce the effect of min-height */
+	_height:845px;
+	
+	background: url(../img/site/detail.jpg) no-repeat top left;
+}
+
+a {
+	text-decoration:none;
+}
+
+small {
+/*Default size appears different between IE and Firefox - reset here to compensate*/
+font-size:0.91em;
+}
+
+h1 {
+	
+	margin: 0 0 0 470px;
+	
+	background: url(../img/site/name.gif) no-repeat;
+	overflow:hidden;
+}
+
+h1 a {
+	
+	display:block;
+
+	width: 427px;
+	height: 56px;
+	
+	font-size:0;
+	
+	text-indent:-100%;
+	/*padding:0 0 0 1000px;*/
+}
+
+div#empty {
+	
+	display:block;
+	position:fixed;
+	
+	_position:absolute;
+	_top:expression(eval(document.body.scrollTop));
+	
+	width:100%;
+	height:100%;
+	
+	
+	background:#fff;
+	
+	z-index:1000;
+}
+
+div#container {
+
+position:absolute;
+	height:100%;
+	width:100%;
+	overflow:auto;
+	z-index:999;
+}
+
+div#test {
+background:lightblue;
+
+float:left;
+
+width:100%;
+height:100px;
+}
+
+.testclass {
+	
+	display:block
+}
+
+/* Upper Menu */
+
+ul#MenuUpper {
+	
+	display:block;
+	position:absolute;
+	left: 470px;
+	top:78px;
+	
+	width: 427px;
+	
+	margin:12px 0 0 80px ;
+	
+	/*font:bold 0.8em "Trebuchet MS", Lucida, Arial, sans-serif;*/
+	font:0.7em "Lucida Sans", Lucida, Arial, sans-serif;
+	color:#5e614b;
+	letter-spacing:0.15em;
+	
+}
+
+ul#MenuUpper li {
+	
+	float:left;
+	display:block;
+}
+
+ul#MenuUpper li a {
+	
+	display:block;
+	margin:0 10px 0 10px;
+	padding:0 0 1px;
+	
+	color:#5e614b;
+	background:url(../img/site/dottedLine.gif) repeat-x bottom left;
+}
+
+ul#MenuUpper li a:hover {
+	
+	color:#5e614b;
+	background:none;
+	
+	padding:0;
+	
+	border-bottom:1px #ccc solid;
+}
+
+
+h6 {
+position:absolute;
+bottom:-4em;
+right:2.2em;
+
+
+text-align:right;
+
+font:0.6em "Lucida Sans", Lucida, Arial, sans-serif; 
+color:#aaa;
+}
+
+h6 a {
+color:#aaa;
+padding:0 0 1px;
+background:url(../img/site/dottedLine.gif) repeat-x bottom left;
+}
+
+div#page div div div#blob {
+clear:both;
+
+height:1px;
+width:100px;
+
+padding:0;
+margin:0;
+background:none;
+font-size:1px;
+}
+
+#ruler {
+background:red;
+position:absolute;
+z-index:1100;
+width:25px;
+height:1612px;
+}

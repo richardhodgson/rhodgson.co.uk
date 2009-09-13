@@ -1,0 +1,146 @@
+#Portfolio #FeaturedItem {
+float:left;
+width:330px;
+
+padding:0 0 40px 6px;
+}
+
+#Portfolio #FeaturedItem h3{
+font-weight:normal;
+font-size:1.7em;
+margin:0 0 15px;
+}
+
+#Portfolio #FeaturedItem h4 {
+margin:0 0 4px;
+}
+
+#Portfolio #FeaturedItem img {
+border:1px solid #3a3c2e;
+}
+
+#Portfolio #FeaturedItem a.FeatureImage {
+border:none;
+}
+
+#Portfolio #FeaturedItem p {
+margin:10px 0 10px;
+text-align:justify;
+}
+
+#Portfolio #FeaturedItem ul li a, #Portfolio #PortfolioItem div.Column ul li a {
+	font-size:1.2em;
+	text-decoration:none;
+	color:#3a3c2e;
+	
+	padding:0 0 2px 16px;
+	border:none;
+}
+
+#Portfolio #FeaturedItem ul {
+background:url(../img/site/dottedLine.gif) repeat-x top left;
+
+text-align:right;
+padding:4px 0;
+
+/*IE6 inherits from previous css attribute - largebox.css*/
+height:1%;
+}
+
+#Portfolio #FeaturedItem li {
+padding:0 0 0 6px;
+}
+
+
+
+/*===================================*/
+
+
+
+#Portfolio #View {
+margin:0 0 0 6px;
+}
+
+#Portfolio span a {
+	font-size:0.35em;
+	text-decoration:none;
+	color:#3a3c2e;
+	
+	border-bottom:solid 1px #e9eae4;
+	margin:0 0 0 2px;
+	
+	padding:0 0 0 16px;
+	background:url(../img/site/SmallDot.gif) no-repeat 3px center;
+}
+
+#Portfolio span a:hover {
+	color:#5e614b;
+}
+
+#Portfolio #View img {
+width:40px;
+height:40px;
+display:block;
+border:1px solid #3a3c2e;
+
+}
+
+
+#Portfolio #View h3{
+font-weight:normal;
+font-size:1.5em;
+margin:6px 0 0 10px;
+}
+
+#Portfolio #View .Column, #Portfolio #View img, #Portfolio #View h3 {
+float:left;
+padding:0;
+}
+
+#Portfolio #View .Column {
+margin:0px 0;
+width:260px;
+padding:0 26px 0 3px;
+}
+
+#Portfolio #View h4 {
+margin:12px 0 4px 0;
+line-height:1em;
+}
+
+
+
+#Portfolio #View ul#ItemLink {
+
+list-style:square inside;
+
+padding:8px 0 14px 58px;
+margin:0;
+
+/*IE6 inherits from previous css attribute - largebox.css*/
+height:1%;
+
+display:block;
+clear:both;
+
+font-size:0.7em;
+background:url(../img/site/dottedLine.gif) repeat-x bottom left;
+
+line-height:1em;
+}
+
+#Portfolio #View ul#ItemLink li {
+margin:0 0 6px;
+}
+
+#Portfolio #View ul#ItemLink a {
+color:#5e614b;
+}
+
+#Portfolio #View div.Column p{
+padding:0px;
+margin:0 0 18px;
+text-align:justify;
+font-size:0.8em;
+line-height:2em;
+}

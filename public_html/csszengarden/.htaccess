@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^csszengarden.rhodgson.co.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www.csszengarden.rhodgson.co.uk$
+RewriteRule ^(.*)$ http://www.rhodgson.co.uk/sites/csszengarden/$1 [R=301,L]
+

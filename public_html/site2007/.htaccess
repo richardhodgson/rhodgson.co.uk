@@ -1,0 +1,66 @@
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^tumblr.rhodgson.co.uk$
+#RewriteRule ^/?(.*)$ "http\:\/\/richardhodgson\.tumblr\.com\/$1" [P,L]
+
+#		Testing (ignore)
+#		RewriteRule ^name/([A-Z-a-z0-9]+)/?$ /index.php?name=$1 [L] 
+#		RewriteRule ^screen/([A-Z-a-z0-9]+)/?$ /screen.php?do=$1 [L]
+#		RewriteRule ^screen/()/?$ /modules/screen.php?do=$1 [L]
+
+# RewriteRule ^screen/(date-time)/?$ /modules/screen.php?do=$1 [L]
+
+# Shortcut to Portfolio Images dir /img/portfolio/ => places/portoflio/NameOfItem/
+# Restricts to *.gif, *.jpg, *.png
+	RewriteRule ^img/portfolio/([A-Za-z0-9\-]+)/([A-Za-z0-9]+).(gif|jpg|png)$ places/portfolio/$1/$2.$3 [L]
+
+# Shortcut to Images dir /img/ => /inc/visual/img/
+# Restricts to *.gif, *.jpg, *.png
+	RewriteRule ^img/([A-Za-z0-9\/\.]+).(gif|jpg|png)$ inc/visual/img/$1.$2 [L]
+
+# Shortcut to Styles dir /styles/ => /inc/visual/styles/
+	RewriteRule ^styles/([A-Za-z0-9\/]+).css$ inc/visual/styles/$1.css [L]
+
+# Shortcut to Scipts dir /scripts/ => /inc/js/
+	RewriteRule ^scripts/([A-Za-z0-9\/]+).js$ inc/js/$1.js [L]
+
+# Shortcut to Files dir /documents/ => places/files/
+	RewriteRule ^documents/([A-Za-z0-9[:space:]\.\-]+)$ places/files/$1 [L]
+
+
+
+# Default Page
+#	(called via root)
+	#RewriteRule ^/?$ places/home/page.php [L]
+	RewriteRule ^/?$ places/home/migrate.php?_target=page [L]
+
+
+# Standard Pages
+	#\/\.
+	#RewriteRule ^pages/([A-Za-z0-9\/\.]+)/?$ places/home/page.php?page=$1 [NC,L]
+	RewriteRule ^pages/([A-Za-z0-9\/\.]+)/?$ places/home/migrate.php?_target=page&page=$1 [NC,L]
+
+# Skills
+	#Converts /Portfolio/Skills/name-of-skill => /Portfolio/Skills/#name-of-skill
+	RewriteRule ^Portfolio/Skills/([A-Za-z\-]+)/?$ /Portfolio/Skills/#$1 [NC,NE,R,L]
+	RewriteRule ^Portfolio/Skills/?$ places/home/migrate.php?_target=skills [NC,L]
+
+
+# Featured
+	RewriteRule ^Portfolio/Featured/([A-Za-z0-9\/\.]+)/?$ places/home/migrate.php?_target=featured&label=$1 [NC,L]
+
+
+# Portfolio
+	# Main Page
+	RewriteRule ^Portfolio/?$ places/home/migrate.php?_target=portfolio&do=list [NC,L]
+	RewriteRule ^Portfolio/([A-Za-z0-9-]+)/?$ places/home/migrate.php?_target=portfolio&do=view&label=$1 [NC,L]
+
+
+
+
+# Processes
+	RewriteRule ^processes/([A-Za-z0-9]+)/?$ places/processes/$1.php [L]
+
+# Special
+#	RewriteRule ^special/([A-Za-z0-9\/\.]+)/?$ places/special/$1 [L]
+AddHandler cgi-script .py

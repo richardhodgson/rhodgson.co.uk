@@ -1,0 +1,68 @@
+/*Main small floating box*/
+#SmallBox {
+	
+	display:block;
+	position:absolute;
+	
+	left:540px;
+	top:170px;	
+	width:319px;
+	
+	background:url(../img/site/welcomeboxbottom.png) no-repeat left bottom rgb(198, 200, 184);
+	
+	/* Hack for IE6 - it renders png's with more gamma. Adjust background colour to compensate */
+	_background:url(../img/site/welcomeboxbottom.png) no-repeat left bottom rgb(192, 194, 177);
+	
+	color:#5e614b;
+	font: 0.9em "Lucida Sans", Lucida, Arial, sans-serif;
+	line-height:1.9em;
+}
+
+/*Second background layer*/
+#SmallBox div {
+	padding:32px 14px 20px 12px;
+	background:url(../img/site/welcomeboxtop.png) no-repeat left top transparent;
+}
+
+/*default anchor styles*/
+#SmallBox div a  {
+	text-decoration:none;
+	color:#3a3c2e;
+	
+	/* - switched to a small repeating image of a line, allows g,j,y,p letters etc to be on top of the line
+	padding:0 0 2px;
+	border-bottom:solid 1px #e9eae4;
+	*/
+	
+	padding:0 2px 2px 2px;
+	background:url(../img/site/solidLine.gif) repeat-x 0 1.032em;
+}
+
+
+/*Document links, usually for files (such as CV links)*/
+#SmallBox div ul.document {
+
+	margin:16px 0 0 16px;
+	list-style: inside url(../img/site/file.png) ;
+}
+
+#SmallBox div ul.document li a span {
+	display:inline;
+	margin:0;
+	font-size:0.6em;
+	color:#5e614b;
+}
+
+#SmallBox div span { 
+	display:block;
+	margin:0 0 32px;
+	font-size:2em;
+}
+
+
+/*Misc*/
+body {
+
+/*Overcome the min-height setting for div#page in global.css. Hides an unneccessary scrollbar*/
+overflow:hidden;
+}

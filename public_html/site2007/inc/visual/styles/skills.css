@@ -1,0 +1,56 @@
+#Skills span a {
+	font-size:0.35em;
+	text-decoration:none;
+	color:#3a3c2e;
+	
+	border-bottom:solid 1px #e9eae4;
+	margin:0 0 0 2px;
+	
+	padding:0 0 0 16px;
+	background:url(../img/site/SmallDot.gif) no-repeat 3px center;
+}
+
+#Skills span a:hover {
+	color:#5e614b;
+}
+
+p {
+margin:0 4px 20px;
+
+background: url(../img/site/dottedLine.gif) repeat-x bottom;
+}
+
+dl p {
+margin:0;
+background:none;
+}
+
+dl p small {
+display:block;
+text-align:right;
+font-size:0.7em;
+}
+
+div#Skills dl p small a  {
+	
+	text-decoration:none;
+	color:#3a3c2e;
+	border-bottom:none;
+	height:1.2em;
+	
+	
+	background:url(../img/site/solidLine.gif) repeat-x 0 1.2em;
+}
+
+dl {
+margin:0 40px 0 6px;
+}
+
+dt {
+font-weight:bold;
+}
+
+dd {
+margin:0 0 18px 20px;
+text-align:justify;
+}

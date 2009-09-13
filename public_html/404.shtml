@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Richard Hodgson ~ rhodgson.co.uk</title>
+    
+        
+            
+    		
+		<style type="text/css" media="screen">
+			
+			@import "/styles/reset.css";
+			@import "/styles/global.css";
+						
+			@import "/styles/smallbox.css";
+					
+			
+		</style>
+		
+		    
+    <script type="text/javascript" src="/scripts/jquery/jquery.js"></script>
+    
+    <script type="text/javascript" src="/scripts/site/transition.js"></script>
+
+    
+    <!--
+	********************************************************************
+		Music went in, design came out.
+		
+			Soulwax - Nite Versions
+			Zero 7  - The Garden
+			Imogen Heap - i-Megaphone
+			Muse - Black Holes And Revelations
+			Nouvelle Vague - Bande A Part
+
+		Thanks for playing nicely Opera.
+	********************************************************************
+	-->
+    
+</head>
+<body>
+
+	
+	<div id="page">
+		<h1><a href="/pages/Welcome">Richard Hodgson</a></h1>
+		
+		<ul id="MenuUpper">
+			<li><a href="/pages/CurriculumVitae">Curriculum Vitae</a></li>
+			<li><a href="/Portfolio">Portfolio</a></li>
+
+			<li><a href="/pages/Contact">Contact</a></li>
+		</ul>
+	
+
+	<div id="SmallBox">
+			
+
+			
+			<div>
+
+				<span>Error 404</span>
+				The page you requested could not be found. Please check your spelling
+				or <a href="mailto: contact@rhodgson.co.uk">email me</a> if you think this isn't right.
+				<br />
+
+				<br />
+				
+				You were looking for <a href="<!--#echo var="REQUEST_URI" -->"><!--#echo var="REQUEST_URI" --></a>
+				
+				
+			</div>
+		
+			
+			
+			
+			<h6>&copy; Copyright <a class="notransition" href="mailto: contact@rhodgson.co.uk">Richard Hodgson</a> 2007. All rights reserved.</h6>
+		</div> 
+		
+	</div>
+
+	
+</body>
+</html>
